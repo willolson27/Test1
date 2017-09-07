@@ -1,3 +1,5 @@
+//will olson number reader
+
 import java.util.Scanner;
 
 public class Numbers {
