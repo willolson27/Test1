@@ -1,4 +1,5 @@
 //will olson number reader
+//but Aidan Helped
 
 import java.util.Scanner;
 
@@ -19,6 +20,7 @@ public class Numbers {
 		
 		System.out.println(ans + num);
 		
+		System.out.println("Aidan added this, so deal with it Will");
 		
 	}
 }
