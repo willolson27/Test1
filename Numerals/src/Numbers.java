@@ -8,17 +8,24 @@ public class Numbers {
 	public static void main(String[] args) {
 		
 		String ask = "print a number";
-		String ans = "The sum is ";
-		int num = 0;
+		String sum = "The sum is ";
+		String pro = "The product is";
+		String quo = "The quotient is";
+		String mod = "The remainder is";
+		int num1 = 0;
+		int num2 = 0
 		Scanner numbers = new Scanner(System.in);
 	
-		for (int i = 0; i < 2; i++) {
 		System.out.println(ask);
-		num = num + numbers.nextInt();
-		}
+		num1 = numbers.nextInt();
+		System.out.println(ask);
+		num2 = numbers.nextInt();
 		
-		System.out.println(ans + num);
 		
+		System.out.println(sum + (num1 + num2);
+		System.out.println(pro + (num1 * num2);
+		System.out.println(quo + (num1 / num2);
+		System.out.println(mod + (num1 % num2);
 		
 	}
 }
